@@ -7,5 +7,5 @@ export const setUser = payload => ({
 });
 
 export const clearUser = () => ({
-  type: SET_USER
+  type: CLEAR_USER
 });
