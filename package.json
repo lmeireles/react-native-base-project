@@ -1,0 +1,41 @@
+{
+  "name": "ReactBaseProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "android": "react-native run-android",
+    "android:build": "react-native run-android --variant=release",
+    "android:release": "ENVFILE=.env cd android && ./gradlew assembleRelease && cd ..",
+    "android:clean": "cd android/ && ./gradlew clean && cd .. && rm -rf $TMPDIR/react-native-packager-cache-* && rm -rf $TMPDIR/metro-bundler-cache-*",
+    "android:release-legacy": "yarn android:bundle && yarn android:release-legacy",
+    "android:build-legacy": "cd android && ./gradlew clean && ./gradlew assembleRelease -x bundleReleaseJsAndAssets && cd ..",
+    "android:bundle": "react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res",
+    "ios": "cd ios && pod install && cd .. && react-native run-ios --simulator='iPhone 6s'",
+    "precommit": "lint-staged",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.4.0",
+    "axios": "^0.18.0",
+    "prop-types": "^15.7.2",
+    "react": "16.8.3",
+    "react-native": "0.59.8",
+    "react-native-dotenv": "^0.2.0",
+    "react-native-gesture-handler": "^1.2.1",
+    "react-native-screens": "^1.0.0-alpha.22",
+    "react-navigation": "^3.9.1",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/runtime": "^7.4.4",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.54.0",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
