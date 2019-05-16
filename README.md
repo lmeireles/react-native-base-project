@@ -32,3 +32,4 @@ This project has some screen and functionality examples
 - [react-native-screens](https://github.com/kmagiera/react-native-screens) This package greatly improves the navigation performance between screens.
 - [axios](https://github.com/axios/axios)
 - [prop-types](https://github.com/facebook/prop-types)
+- [formik](https://github.com/jaredpalmer/formik)

@@ -1,10 +1,11 @@
 import React from 'react'
-import {View, Text} from 'react-native'
+import {ViewCenter} from "../../components/layout";
+import SimpleText from "../../components/SimpleText";
 
 const Musics = () => (
-  <View>
-    <Text>Musics</Text>
-  </View>
+  <ViewCenter>
+    <SimpleText>Musics</SimpleText>
+  </ViewCenter>
 );
 
 export default Musics
