@@ -1,15 +1,15 @@
 import React from 'react'
 import {createBottomTabNavigator} from 'react-navigation';
 import Profile from "../screens/Profile";
-import MusicStack from "./MusicStack";
+import PostStack from "./PostStack";
 
 const HomeStack = createBottomTabNavigator(
   {
-    MusicTab: MusicStack,
+    PostTab: PostStack,
     ProfileTab: Profile,
   },
   {
-    initialRouteName: 'MusicTab'
+    initialRouteName: 'PostTab'
   }
 );
 

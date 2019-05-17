@@ -6,7 +6,7 @@ import LogoImg from '../../assets/logo.png';
 import useLogin from '../../state/User/hooks/useLogin';
 
 const Login = (props) => {
-  const [login, setLogin] = useLogin(null);
+  const [login, setLogin] = useLogin();
 
   useEffect(() => {
     if (!login) return;

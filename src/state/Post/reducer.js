@@ -1,6 +1,6 @@
 export default (state, action) => {
   switch (action.type) {
-    case 'music':
+    case 'post':
       return {
         ...state,
         ...action.payload

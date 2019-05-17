@@ -2,10 +2,10 @@ import React from 'react'
 import {ViewCenter} from "../../components/layout";
 import SimpleText from "../../components/SimpleText";
 
-const Musics = () => (
+const Posts = () => (
   <ViewCenter>
-    <SimpleText>Musics</SimpleText>
+    <SimpleText>Posts</SimpleText>
   </ViewCenter>
 );
 
-export default Musics
+export default Posts
