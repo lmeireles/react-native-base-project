@@ -1,6 +1,8 @@
 import {CLEAR_USER, SET_USER} from "./actions";
 
-export default (state = null, action) => {
+const initialState = null;
+
+export default (state = initialState, action) => {
   switch (action.type) {
     case SET_USER:
       return action.payload;

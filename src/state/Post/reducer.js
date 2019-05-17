@@ -1,9 +1,29 @@
-export default (state, action) => {
+import {FAIL_POSTS, REQUEST_POSTS, SET_POSTS} from "./actions";
+
+const initialState = {
+  list: [],
+  loading: false,
+  error: null
+};
+
+export default (state = initialState, action) => {
   switch (action.type) {
-    case 'post':
+    case REQUEST_POSTS:
       return {
         ...state,
-        ...action.payload
+        loading: true
+      };
+    case FAIL_POSTS:
+      return {
+        ...state,
+        loading: false,
+        error: action.payload
+      };
+    case SET_POSTS:
+      return {
+        ...state,
+        loading: false,
+        list: action.payload
       };
     default:
       return state;
