@@ -7,6 +7,7 @@ import Button from "../../components/Button";
 import {clearUser} from "../../state/User/actions";
 import Ionicons from "react-native-vector-icons/Ionicons";
 import theme from "../../components/theme";
+import storage from "../../utils/storage";
 
 const Profile = props => {
   const [{user}, dispatch] = useStateValue();
@@ -14,6 +15,8 @@ const Profile = props => {
 
   useEffect(() => {
     if (!logout) return;
+
+    storage.clear();
 
     props.navigation.navigate('Auth');
     dispatch(clearUser())
