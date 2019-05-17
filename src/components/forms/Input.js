@@ -9,8 +9,20 @@ import PropTypes from "prop-types";
 
 const Input = props => {
 
-  const {label, placeholder, error, touched, color, bordered, ...rest} = props;
-  const hasError = touched && (error !== undefined);
+  const {
+    label,
+    name,
+    placeholder,
+    color,
+    bordered,
+    handleChange,
+    handleBlur,
+    errors,
+    touched,
+    values,
+    ...rest
+  } = props;
+  const hasError = touched[name] && (errors[name] !== undefined);
   const finalColor = rest.disabled ? '#CCC' : color;
 
   return (
@@ -24,10 +36,15 @@ const Input = props => {
           placeholder={placeholder}
           placeholderTextColor={color}
           style={{color: finalColor, paddingRight: 40}}
+          onChangeText={handleChange(name)}
+          onBlur={handleBlur(name)}
+          error={errors[name]}
+          touched={touched[name]}
+          value={values[name]}
           {...rest}
         />
       </InputHolder>
-      {hasError ? <ErrorText>{error}</ErrorText> : <ErrorText/>}
+      {hasError ? <ErrorText>{errors[name]}</ErrorText> : <ErrorText/>}
     </FormGroup>
   )
 };
@@ -35,11 +52,15 @@ const Input = props => {
 Input.propTypes = {
   disabled: PropTypes.bool,
   bordered: PropTypes.bool,
-  touched: PropTypes.bool,
-  error: PropTypes.string,
+  touched: PropTypes.object,
   placeholder: PropTypes.string,
   label: PropTypes.string,
+  name: PropTypes.string,
   color: PropTypes.string,
+  handleChange: PropTypes.func,
+  handleBlur: PropTypes.func,
+  errors: PropTypes.object,
+  values: PropTypes.object
 };
 
 Input.defaultProps = {

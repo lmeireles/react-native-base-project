@@ -7,10 +7,7 @@ import Navigator from "./src/routes";
 useScreens();
 
 export default () => {
-  const initialState = {
-    user: null,
-    music: null
-  };
+  const initialState = {};
 
   return (
     <StateProvider initialState={initialState} reducer={reducers}>

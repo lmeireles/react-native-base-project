@@ -3,35 +3,39 @@ import {Formik} from 'formik';
 import Button from '../../components/Button';
 import {ViewCenter, Spacer} from "../../components/layout";
 import {ErrorText, Input} from "../../components/forms";
+import * as Yup from 'yup';
+
+const LoginSchema = Yup.object().shape({
+  password: Yup.string()
+    .min(4, 'Password too short')
+    .required('Required field'),
+  username: Yup.string()
+    .required('Required field')
+});
 
 const LoginForm = props => (
   <Formik
-    initialValues={{email: '', password: ''}}
+    initialValues={{username: '', password: ''}}
+    validationSchema={LoginSchema}
     {...props}
   >
-    {({handleChange, handleBlur, values, handleSubmit, isSubmitting, errors, touched}) => (
+    {({handleSubmit, isSubmitting, ...props}) => (
       <ViewCenter
         maxWidth={270}
         padder
       >
-        {errors.genericError &&
-          <ErrorText>{errors.genericError}</ErrorText>
+        {props.errors.genericError &&
+          <ErrorText>{props.errors.genericError}</ErrorText>
         }
         <Input
           placeholder={'Username'}
-          onChangeText={handleChange('email')}
-          onBlur={handleBlur('email')}
-          error={errors.email}
-          touched={touched.email}
-          value={values.email}
+          name={'username'}
+          {...props}
         />
         <Input
           placeholder={'Password'}
-          onChangeText={handleChange('password')}
-          onBlur={handleBlur('password')}
-          error={errors.password}
-          touched={touched.password}
-          value={values.password}
+          name={'password'}
+          {...props}
         />
         <Spacer space={18}/>
         <Button

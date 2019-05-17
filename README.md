@@ -33,3 +33,4 @@ This project has some screen and functionality examples
 - [axios](https://github.com/axios/axios)
 - [prop-types](https://github.com/facebook/prop-types)
 - [formik](https://github.com/jaredpalmer/formik)
+- [yup](https://github.com/jquense/yup) For form validations

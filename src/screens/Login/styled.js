@@ -1,10 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import {ViewColumnCenter} from "../../components/layout";
+import {ViewColumnCenter, Spacer} from "../../components/layout";
 
 const StyledImage = styled.Image`
   width: 150px;
   height: 150px;
+  min-height: 150px;
 `;
 export const Logo = props => (
   <ViewColumnCenter center>
@@ -12,5 +13,6 @@ export const Logo = props => (
       {...props}
       resizeMode={'contain'}
     />
+    <Spacer space={34}/>
   </ViewColumnCenter>
 );

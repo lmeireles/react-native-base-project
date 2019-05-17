@@ -26,7 +26,8 @@
     "react-native-gesture-handler": "^1.2.1",
     "react-native-screens": "^1.0.0-alpha.22",
     "react-navigation": "^3.9.1",
-    "styled-components": "^4.2.0"
+    "styled-components": "^4.2.0",
+    "yup": "^0.27.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
