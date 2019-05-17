@@ -2,6 +2,7 @@ import React from 'react';
 import {useStateValue} from "../../index";
 import {login} from "../queries";
 import {setUser} from "../actions";
+import storage from "../../../utils/storage";
 
 const useLogin = () => {
   const [{user}, dispatch] = useStateValue();
@@ -18,8 +19,9 @@ const useLogin = () => {
       return
     }
 
+    await storage.save('access_token', response.access_token);
     await actions.setSubmitting(false);
-    dispatch(setUser(response.data));
+    dispatch(setUser(response));
   };
 
   return [user, formSubmit];
