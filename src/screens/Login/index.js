@@ -5,13 +5,13 @@ import {Logo} from './styled'
 import LogoImg from '../../assets/logo.png';
 import useLogin from '../../state/User/hooks/useLogin';
 
-const Login = (props) => {
+const Login = ({navigation: {navigate}}) => {
   const [login, setLogin] = useLogin();
 
   useEffect(() => {
     if (!login) return;
 
-    props.navigation.navigate('Home');
+    navigate('Home');
   }, [login]);
 
   return (

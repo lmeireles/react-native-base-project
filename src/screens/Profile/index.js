@@ -5,6 +5,8 @@ import SimpleText from "../../components/SimpleText";
 import {useStateValue} from "../../state";
 import Button from "../../components/Button";
 import {clearUser} from "../../state/User/actions";
+import Ionicons from "react-native-vector-icons/Ionicons";
+import theme from "../../components/theme";
 
 const Profile = props => {
   const [{user}, dispatch] = useStateValue();
@@ -32,5 +34,13 @@ const Profile = props => {
     </Container>
   )
 };
+
+Profile.navigationOptions = ({ navigation }) => ({
+  tabBarIcon: ({tintColor}) => <Ionicons
+    name={'md-person'}
+    size={theme.navigation.iconSize}
+    color={tintColor}
+  />,
+});
 
 export default Profile

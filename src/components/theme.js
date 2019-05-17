@@ -11,9 +11,18 @@ const forms = {
   errorColor: colors.danger
 };
 
+const navigation = {
+  headerBackground: colors.primary,
+  tabBackground: colors.secondary,
+  color: "#EEE",
+  inactiveColor: "#EEEEEE88",
+  iconSize: 28
+};
+
 const theme = Object.freeze({
   colors,
   forms,
+  navigation,
   padding: 14
 });
 

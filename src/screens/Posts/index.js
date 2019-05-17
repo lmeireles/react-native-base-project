@@ -1,11 +1,20 @@
 import React from 'react'
-import {ViewCenter} from "../../components/layout";
-import SimpleText from "../../components/SimpleText";
+import {FlatList, Text} from 'react-native';
+import {useStateValue} from "../../state";
+import Container from "../../components/layout/Container";
 
-const Posts = () => (
-  <ViewCenter>
-    <SimpleText>Posts</SimpleText>
-  </ViewCenter>
-);
+const Posts = () => {
+  const [posts, {dispatch}] = useStateValue();
+
+  return (
+    <Container dark center>
+      <FlatList />
+    </Container>
+  )
+};
+
+Posts.navigationOptions = ({ navigation }) => ({
+  title: "Posts",
+});
 
 export default Posts

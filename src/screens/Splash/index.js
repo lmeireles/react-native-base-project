@@ -4,8 +4,7 @@ import LogoImg from "../../assets/logo.png";
 import {Container} from "../../components/layout";
 import useTokenLogin from "../../state/User/hooks/useTokenLogin";
 
-const Splash = (props) => {
-  const {navigation: {navigate}} = props;
+const Splash = ({navigation: {navigate}}) => {
   const [route, setRoute] = useTokenLogin();
 
   useEffect(() => {
