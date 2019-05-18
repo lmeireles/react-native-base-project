@@ -23,11 +23,11 @@ const Profile = props => {
   }, [logout]);
 
   return (
-    <Container center>
+    <Container dark center>
       <Image
         style={{width: 50, height: 50, backgroundColor: '#CCFFDD'}}
         source={{uri: user.avatar}}/>
-      <SimpleText>Hello, {user.name}</SimpleText>
+      <SimpleText light>Hello, {user.name}</SimpleText>
       <Spacer space={20}/>
       <Button
         secondary
@@ -38,7 +38,7 @@ const Profile = props => {
   )
 };
 
-Profile.navigationOptions = ({ navigation }) => ({
+Profile.navigationOptions = ({navigation}) => ({
   tabBarIcon: ({tintColor}) => <Ionicons
     name={'md-person'}
     size={theme.navigation.iconSize}

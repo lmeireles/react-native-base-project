@@ -1,7 +1,7 @@
 import userReducer from './User/reducer';
 import postReducer from './Post/reducer';
 
-export default ({ user, music }, action) => ({
+export default ({ user, posts }, action) => ({
   user: userReducer(user, action),
-  basket: postReducer(music, action)
+  posts: postReducer(posts, action)
 });

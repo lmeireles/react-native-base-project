@@ -7,7 +7,8 @@ const StyledContainer = styled.SafeAreaView`
   flex: 1;
   justify-content: ${ p => p.center ? 'center' : 'flex-start' };
   align-items: center;
-  padding: ${p => p.padder === true ? 12 : p.padder}px;  
+  padding-left: ${p => p.padder === true ? 12 : p.padder}px;  
+  padding-right: ${p => p.padder === true ? 12 : p.padder}px;  
   background: ${ p => p.backgroundColor};
 `;
 

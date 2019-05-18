@@ -1,4 +1,5 @@
 const colors = {
+  white: "#EEE",
   light: "#B2B9C3",
   dark: "#26374B",
   primary: "#009A9A",
@@ -23,7 +24,8 @@ const theme = Object.freeze({
   colors,
   forms,
   navigation,
-  padding: 14
+  padding: 14,
+  fontSize: 16
 });
 
 /*

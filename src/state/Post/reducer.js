@@ -21,8 +21,7 @@ export default (state = initialState, action) => {
       };
     case SET_POSTS:
       return {
-        ...state,
-        loading: false,
+        ...initialState,
         list: action.payload
       };
     default:
