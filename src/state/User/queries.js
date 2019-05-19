@@ -2,7 +2,7 @@ import axios from '../../utils/axios'
 
 export const currentUser = () => {
   return axios()
-    .get('/login')
+    .get('/login/1')
     .then(res => res.data)
     .catch(err => err.response.data)
 };

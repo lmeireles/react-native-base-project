@@ -22,5 +22,22 @@ export default function () {
     return config
   });
 
+  instance.interceptors.response.use(
+    response => (response),
+    error => {
+      if (error.response && error.response.status === 401) {
+        storage.delete('access_token');
+      }
+
+      console.log('REQUEST error', error);
+
+      if (!error.response) {
+        error.response = {data: {genericError: error}};
+      }
+
+      return Promise.reject(error)
+    }
+  );
+
   return instance
 }
