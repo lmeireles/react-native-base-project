@@ -4,8 +4,9 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import SimpleText from './SimpleText';
 import theme, {getColorFromProps} from "./theme";
+import {createAnimatableComponent} from 'react-native-animatable';
 
-const ButtonContainer = styled.TouchableOpacity`
+const ButtonStaticContainer = styled.TouchableOpacity`
   width: 100%;
   padding: ${ p => p.padding}px;
   background: ${ p => p.backgroundColor};
@@ -14,6 +15,15 @@ const ButtonContainer = styled.TouchableOpacity`
   border-radius: ${p => p.round ? 7 : 2}px;
 `;
 
+const ButtonAnimatedContainer = createAnimatableComponent(ButtonStaticContainer);
+
+const ButtonContainer = props => (
+  props.animation ?
+    <ButtonAnimatedContainer {...props} />
+    :
+    <ButtonStaticContainer {...props} />
+);
+
 const Button = (props) => {
   const {loading, title, color, ...rest} = props;
 
@@ -21,8 +31,8 @@ const Button = (props) => {
 
   return (
     <ButtonContainer {...rest}>
-      { loading ?
-        <ActivityIndicator color={color} />
+      {loading ?
+        <ActivityIndicator color={color}/>
         :
         <SimpleText color={color} bold>{title}</SimpleText>
       }
@@ -36,7 +46,8 @@ Button.propTypes = {
   padding: PropTypes.number,
   round: PropTypes.bool,
   loading: PropTypes.bool,
-  title: PropTypes.string
+  title: PropTypes.string,
+  animation: PropTypes.string
 };
 
 Button.defaultProps = {

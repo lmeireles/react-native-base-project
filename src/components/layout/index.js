@@ -2,8 +2,9 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import Container from './Container';
 import Spacer from './Spacer';
+import {View} from 'react-native-animatable';
 
-const ViewRowCenter = styled.SafeAreaView`
+const ViewRowCenter = styled(View)`
   padding: ${p => p.padder === true ? 12 : p.padder}px;
   align-items: ${ p => p.center ? 'center' : 'flex-start' };
   flex: 1;
@@ -11,7 +12,7 @@ const ViewRowCenter = styled.SafeAreaView`
   justify-content: center;
   width: 100%;
 `;
-const ViewColumnCenter = styled.SafeAreaView`
+const ViewColumnCenter = styled(View)`
   padding: ${p => p.padder === true ? 12 : p.padder}px;
   align-items: ${ p => p.center ? 'center' : 'flex-start' };
   flex: 1;
@@ -19,7 +20,7 @@ const ViewColumnCenter = styled.SafeAreaView`
   justify-content: center;
   width: 100%;
 `;
-const ViewCenter = styled.SafeAreaView`
+const ViewCenter = styled(View)`
   padding: ${p => p.padder === true ? 12 : p.padder}px;
   flex: 1;
   justify-content: center;

@@ -21,6 +21,8 @@ const LoginForm = props => (
   >
     {({handleSubmit, isSubmitting, ...props}) => (
       <ViewCenter
+        animation={'bounceIn'}
+        delay={600}
         maxWidth={270}
         padder
       >
