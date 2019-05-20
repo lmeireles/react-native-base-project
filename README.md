@@ -9,6 +9,10 @@ This project has some screen and functionality examples
     - `react-native-rename "NewAppName" -b br.com.company.newname`
 2. Run `yarn` or `npm install`
 
+### Demo
+
+![Demo Image](demo/demo.gif)
+
 ### Project Structure
 
     .
@@ -36,3 +40,4 @@ This project has some screen and functionality examples
 - [prop-types](https://github.com/facebook/prop-types)
 - [formik](https://github.com/jaredpalmer/formik)
 - [yup](https://github.com/jquense/yup) For form validations
+- [react-native-animatable](https://github.com/oblador/react-native-animatable)
