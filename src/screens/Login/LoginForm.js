@@ -37,6 +37,7 @@ const LoginForm = props => (
         <Input
           placeholder={'Password'}
           name={'password'}
+          secureTextEntry={true}
           {...props}
         />
         <Spacer space={18}/>
