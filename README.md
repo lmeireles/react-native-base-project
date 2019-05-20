@@ -19,6 +19,8 @@ This project has some screen and functionality examples
     │   ├── screens                 # Screens and specific layout components
     │   ├── state                   # Global state, reducers, actions, queries
     │   └── utils                   # Helpers (axios, storage, etc...)
+    ├── demo                       
+    │   └── demo.gif                # Screen capture from the app
     ├── App.js                      # Load initial routes and state
     ├── index.js                    # Register and initialize the app
     ├── .env                        # Global constants
