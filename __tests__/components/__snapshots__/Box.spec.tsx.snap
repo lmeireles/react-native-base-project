@@ -1,0 +1,737 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Box snapshots colors 1`] = `
+<View
+  color="primary"
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "alignItems": undefined,
+        "alignSelf": undefined,
+        "backgroundColor": "#240A36",
+        "borderColor": undefined,
+        "borderRadius": undefined,
+        "borderWidth": undefined,
+        "flexDirection": undefined,
+        "height": undefined,
+        "justifyContent": undefined,
+        "position": undefined,
+        "width": undefined,
+      },
+      false,
+      undefined,
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Box snapshots colors 2`] = `
+<View
+  color="secondary"
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "alignItems": undefined,
+        "alignSelf": undefined,
+        "backgroundColor": "#e0e3fd",
+        "borderColor": undefined,
+        "borderRadius": undefined,
+        "borderWidth": undefined,
+        "flexDirection": undefined,
+        "height": undefined,
+        "justifyContent": undefined,
+        "position": undefined,
+        "width": undefined,
+      },
+      false,
+      undefined,
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Box snapshots colors 3`] = `
+<View
+  color="gray01"
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "alignItems": undefined,
+        "alignSelf": undefined,
+        "backgroundColor": "#1E2126",
+        "borderColor": undefined,
+        "borderRadius": undefined,
+        "borderWidth": undefined,
+        "flexDirection": undefined,
+        "height": undefined,
+        "justifyContent": undefined,
+        "position": undefined,
+        "width": undefined,
+      },
+      false,
+      undefined,
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Box snapshots colors 4`] = `
+<View
+  color="gray02"
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "alignItems": undefined,
+        "alignSelf": undefined,
+        "backgroundColor": "#5C6574",
+        "borderColor": undefined,
+        "borderRadius": undefined,
+        "borderWidth": undefined,
+        "flexDirection": undefined,
+        "height": undefined,
+        "justifyContent": undefined,
+        "position": undefined,
+        "width": undefined,
+      },
+      false,
+      undefined,
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Box snapshots colors 5`] = `
+<View
+  color="gray03"
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "alignItems": undefined,
+        "alignSelf": undefined,
+        "backgroundColor": "#828B9A",
+        "borderColor": undefined,
+        "borderRadius": undefined,
+        "borderWidth": undefined,
+        "flexDirection": undefined,
+        "height": undefined,
+        "justifyContent": undefined,
+        "position": undefined,
+        "width": undefined,
+      },
+      false,
+      undefined,
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Box snapshots colors 6`] = `
+<View
+  color="gray04"
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "alignItems": undefined,
+        "alignSelf": undefined,
+        "backgroundColor": "#B9C1CC",
+        "borderColor": undefined,
+        "borderRadius": undefined,
+        "borderWidth": undefined,
+        "flexDirection": undefined,
+        "height": undefined,
+        "justifyContent": undefined,
+        "position": undefined,
+        "width": undefined,
+      },
+      false,
+      undefined,
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Box snapshots colors 7`] = `
+<View
+  color="gray05"
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "alignItems": undefined,
+        "alignSelf": undefined,
+        "backgroundColor": "#CAD1D9",
+        "borderColor": undefined,
+        "borderRadius": undefined,
+        "borderWidth": undefined,
+        "flexDirection": undefined,
+        "height": undefined,
+        "justifyContent": undefined,
+        "position": undefined,
+        "width": undefined,
+      },
+      false,
+      undefined,
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Box snapshots colors 8`] = `
+<View
+  color="gray06"
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "alignItems": undefined,
+        "alignSelf": undefined,
+        "backgroundColor": "#E4E9ED",
+        "borderColor": undefined,
+        "borderRadius": undefined,
+        "borderWidth": undefined,
+        "flexDirection": undefined,
+        "height": undefined,
+        "justifyContent": undefined,
+        "position": undefined,
+        "width": undefined,
+      },
+      false,
+      undefined,
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Box snapshots colors 9`] = `
+<View
+  color="gray07"
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "alignItems": undefined,
+        "alignSelf": undefined,
+        "backgroundColor": "#F0F3F8",
+        "borderColor": undefined,
+        "borderRadius": undefined,
+        "borderWidth": undefined,
+        "flexDirection": undefined,
+        "height": undefined,
+        "justifyContent": undefined,
+        "position": undefined,
+        "width": undefined,
+      },
+      false,
+      undefined,
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Box snapshots colors 10`] = `
+<View
+  color="white"
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "alignItems": undefined,
+        "alignSelf": undefined,
+        "backgroundColor": "#FFFFFF",
+        "borderColor": undefined,
+        "borderRadius": undefined,
+        "borderWidth": undefined,
+        "flexDirection": undefined,
+        "height": undefined,
+        "justifyContent": undefined,
+        "position": undefined,
+        "width": undefined,
+      },
+      false,
+      undefined,
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Box snapshots colors 11`] = `
+<View
+  color="error"
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "alignItems": undefined,
+        "alignSelf": undefined,
+        "backgroundColor": "#F13F11",
+        "borderColor": undefined,
+        "borderRadius": undefined,
+        "borderWidth": undefined,
+        "flexDirection": undefined,
+        "height": undefined,
+        "justifyContent": undefined,
+        "position": undefined,
+        "width": undefined,
+      },
+      false,
+      undefined,
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Box snapshots colors 12`] = `
+<View
+  color="success"
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "alignItems": undefined,
+        "alignSelf": undefined,
+        "backgroundColor": "#00CC96",
+        "borderColor": undefined,
+        "borderRadius": undefined,
+        "borderWidth": undefined,
+        "flexDirection": undefined,
+        "height": undefined,
+        "justifyContent": undefined,
+        "position": undefined,
+        "width": undefined,
+      },
+      false,
+      undefined,
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Box snapshots colors 13`] = `
+<View
+  color="info"
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "alignItems": undefined,
+        "alignSelf": undefined,
+        "backgroundColor": "#14C4E6",
+        "borderColor": undefined,
+        "borderRadius": undefined,
+        "borderWidth": undefined,
+        "flexDirection": undefined,
+        "height": undefined,
+        "justifyContent": undefined,
+        "position": undefined,
+        "width": undefined,
+      },
+      false,
+      undefined,
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Box snapshots colors 14`] = `
+<View
+  color="alert"
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "alignItems": undefined,
+        "alignSelf": undefined,
+        "backgroundColor": "#FDC34E",
+        "borderColor": undefined,
+        "borderRadius": undefined,
+        "borderWidth": undefined,
+        "flexDirection": undefined,
+        "height": undefined,
+        "justifyContent": undefined,
+        "position": undefined,
+        "width": undefined,
+      },
+      false,
+      undefined,
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Box snapshots default 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "alignItems": undefined,
+        "alignSelf": undefined,
+        "backgroundColor": undefined,
+        "borderColor": undefined,
+        "borderRadius": undefined,
+        "borderWidth": undefined,
+        "flexDirection": undefined,
+        "height": undefined,
+        "justifyContent": undefined,
+        "position": undefined,
+        "width": undefined,
+      },
+      false,
+      undefined,
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Box snapshots dimensions 1`] = `
+<View
+  height={5}
+  m={3}
+  ph={6}
+  pt={5}
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": 24,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": 48,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": 40,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "alignItems": undefined,
+        "alignSelf": undefined,
+        "backgroundColor": undefined,
+        "borderColor": undefined,
+        "borderRadius": undefined,
+        "borderWidth": undefined,
+        "flexDirection": undefined,
+        "height": 5,
+        "justifyContent": undefined,
+        "position": undefined,
+        "width": 100,
+      },
+      false,
+      undefined,
+      undefined,
+    ]
+  }
+  width={100}
+/>
+`;
+
+exports[`Box snapshots flex 1`] = `
+<View
+  flex={5}
+  flexFlow="column"
+  justifyContent="flex-end"
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "alignItems": undefined,
+        "alignSelf": undefined,
+        "backgroundColor": undefined,
+        "borderColor": undefined,
+        "borderRadius": undefined,
+        "borderWidth": undefined,
+        "flexDirection": "column",
+        "height": undefined,
+        "justifyContent": "flex-end",
+        "position": undefined,
+        "width": undefined,
+      },
+      false,
+      undefined,
+      undefined,
+    ]
+  }
+/>
+`;

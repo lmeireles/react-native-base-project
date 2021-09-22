@@ -1,0 +1,818 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text snapshots colors 1`] = `
+<Text
+  maxFontSizeMultiplier={1.1}
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "color": "#240A36",
+        "fontFamily": "Poppins-Regular",
+        "fontSize": 16,
+        "letterSpacing": 0.1,
+        "textAlign": "auto",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Text snapshots colors 2`] = `
+<Text
+  maxFontSizeMultiplier={1.1}
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "color": "#e0e3fd",
+        "fontFamily": "Poppins-Regular",
+        "fontSize": 16,
+        "letterSpacing": 0.1,
+        "textAlign": "auto",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Text snapshots colors 3`] = `
+<Text
+  maxFontSizeMultiplier={1.1}
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "color": "#1E2126",
+        "fontFamily": "Poppins-Regular",
+        "fontSize": 16,
+        "letterSpacing": 0.1,
+        "textAlign": "auto",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Text snapshots colors 4`] = `
+<Text
+  maxFontSizeMultiplier={1.1}
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "color": "#5C6574",
+        "fontFamily": "Poppins-Regular",
+        "fontSize": 16,
+        "letterSpacing": 0.1,
+        "textAlign": "auto",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Text snapshots colors 5`] = `
+<Text
+  maxFontSizeMultiplier={1.1}
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "color": "#828B9A",
+        "fontFamily": "Poppins-Regular",
+        "fontSize": 16,
+        "letterSpacing": 0.1,
+        "textAlign": "auto",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Text snapshots colors 6`] = `
+<Text
+  maxFontSizeMultiplier={1.1}
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "color": "#B9C1CC",
+        "fontFamily": "Poppins-Regular",
+        "fontSize": 16,
+        "letterSpacing": 0.1,
+        "textAlign": "auto",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Text snapshots colors 7`] = `
+<Text
+  maxFontSizeMultiplier={1.1}
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "color": "#CAD1D9",
+        "fontFamily": "Poppins-Regular",
+        "fontSize": 16,
+        "letterSpacing": 0.1,
+        "textAlign": "auto",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Text snapshots colors 8`] = `
+<Text
+  maxFontSizeMultiplier={1.1}
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "color": "#E4E9ED",
+        "fontFamily": "Poppins-Regular",
+        "fontSize": 16,
+        "letterSpacing": 0.1,
+        "textAlign": "auto",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Text snapshots colors 9`] = `
+<Text
+  maxFontSizeMultiplier={1.1}
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "color": "#F0F3F8",
+        "fontFamily": "Poppins-Regular",
+        "fontSize": 16,
+        "letterSpacing": 0.1,
+        "textAlign": "auto",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Text snapshots colors 10`] = `
+<Text
+  maxFontSizeMultiplier={1.1}
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "color": "#FFFFFF",
+        "fontFamily": "Poppins-Regular",
+        "fontSize": 16,
+        "letterSpacing": 0.1,
+        "textAlign": "auto",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Text snapshots colors 11`] = `
+<Text
+  maxFontSizeMultiplier={1.1}
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "color": "#F13F11",
+        "fontFamily": "Poppins-Regular",
+        "fontSize": 16,
+        "letterSpacing": 0.1,
+        "textAlign": "auto",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Text snapshots colors 12`] = `
+<Text
+  maxFontSizeMultiplier={1.1}
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "color": "#00CC96",
+        "fontFamily": "Poppins-Regular",
+        "fontSize": 16,
+        "letterSpacing": 0.1,
+        "textAlign": "auto",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Text snapshots colors 13`] = `
+<Text
+  maxFontSizeMultiplier={1.1}
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "color": "#14C4E6",
+        "fontFamily": "Poppins-Regular",
+        "fontSize": 16,
+        "letterSpacing": 0.1,
+        "textAlign": "auto",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Text snapshots colors 14`] = `
+<Text
+  maxFontSizeMultiplier={1.1}
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "color": "#FDC34E",
+        "fontFamily": "Poppins-Regular",
+        "fontSize": 16,
+        "letterSpacing": 0.1,
+        "textAlign": "auto",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Text snapshots default 1`] = `
+<Text
+  maxFontSizeMultiplier={1.1}
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "color": "#1E2126",
+        "fontFamily": "Poppins-Regular",
+        "fontSize": 16,
+        "letterSpacing": 0.1,
+        "textAlign": "auto",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Text snapshots dimensions 1`] = `
+<Text
+  m={3}
+  maxFontSizeMultiplier={1.1}
+  ph={6}
+  pt={5}
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": 24,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": 48,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": 40,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "color": "#1E2126",
+        "fontFamily": "Poppins-Regular",
+        "fontSize": 16,
+        "letterSpacing": 0.1,
+        "textAlign": "auto",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Text snapshots variants 1`] = `
+<Text
+  maxFontSizeMultiplier={1.1}
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "color": "#1E2126",
+        "fontFamily": "Poppins-Bold",
+        "fontSize": 28,
+        "letterSpacing": 0.2,
+        "textAlign": "auto",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Text snapshots variants 2`] = `
+<Text
+  maxFontSizeMultiplier={1.1}
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "color": "#1E2126",
+        "fontFamily": "Poppins-Bold",
+        "fontSize": 14,
+        "letterSpacing": undefined,
+        "textAlign": "auto",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Text snapshots variants 3`] = `
+<Text
+  maxFontSizeMultiplier={1.1}
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "color": "#1E2126",
+        "fontFamily": "Poppins-Regular",
+        "fontSize": 16,
+        "letterSpacing": 0.2,
+        "textAlign": "auto",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Text snapshots variants 4`] = `
+<Text
+  maxFontSizeMultiplier={1.1}
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "color": "#1E2126",
+        "fontFamily": "Poppins-Regular",
+        "fontSize": 16,
+        "letterSpacing": 0.1,
+        "textAlign": "auto",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Text snapshots variants 5`] = `
+<Text
+  maxFontSizeMultiplier={1.1}
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "color": "#1E2126",
+        "fontFamily": "Poppins-SemiBold",
+        "fontSize": 16,
+        "letterSpacing": undefined,
+        "textAlign": "auto",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Text snapshots variants 6`] = `
+<Text
+  maxFontSizeMultiplier={1.1}
+  style={
+    Array [
+      Object {
+        "alignSelf": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+      },
+      Object {
+        "color": "#1E2126",
+        "fontFamily": "Poppins-Regular",
+        "fontSize": 12,
+        "letterSpacing": undefined,
+        "textAlign": "auto",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
