@@ -1,0 +1,317 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button snapshots default 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  nativeID="animatedComponent"
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": undefined,
+      "backgroundColor": "#240A36",
+      "borderColor": "#240A36",
+      "borderRadius": 12,
+      "borderWidth": 0,
+      "height": 54,
+      "justifyContent": "center",
+      "margin": undefined,
+      "marginBottom": undefined,
+      "marginHorizontal": undefined,
+      "marginLeft": undefined,
+      "marginRight": undefined,
+      "marginTop": undefined,
+      "marginVertical": undefined,
+      "opacity": 1,
+      "padding": undefined,
+      "paddingBottom": undefined,
+      "paddingHorizontal": undefined,
+      "paddingLeft": undefined,
+      "paddingRight": undefined,
+      "paddingTop": undefined,
+      "paddingVertical": undefined,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    maxFontSizeMultiplier={1.1}
+    style={
+      Array [
+        Object {
+          "alignSelf": undefined,
+          "margin": undefined,
+          "marginBottom": undefined,
+          "marginHorizontal": undefined,
+          "marginLeft": undefined,
+          "marginRight": undefined,
+          "marginTop": undefined,
+          "marginVertical": undefined,
+          "padding": undefined,
+          "paddingBottom": undefined,
+          "paddingHorizontal": undefined,
+          "paddingLeft": undefined,
+          "paddingRight": undefined,
+          "paddingTop": undefined,
+          "paddingVertical": undefined,
+        },
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "Poppins-SemiBold",
+          "fontSize": 16,
+          "letterSpacing": undefined,
+          "textAlign": "auto",
+        },
+        undefined,
+      ]
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`Button snapshots dimensions 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  nativeID="animatedComponent"
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": undefined,
+      "backgroundColor": "#240A36",
+      "borderColor": "#240A36",
+      "borderRadius": 12,
+      "borderWidth": 0,
+      "height": 54,
+      "justifyContent": "center",
+      "margin": 24,
+      "marginBottom": undefined,
+      "marginHorizontal": undefined,
+      "marginLeft": undefined,
+      "marginRight": undefined,
+      "marginTop": undefined,
+      "marginVertical": undefined,
+      "opacity": 1,
+      "padding": undefined,
+      "paddingBottom": undefined,
+      "paddingHorizontal": 48,
+      "paddingLeft": undefined,
+      "paddingRight": undefined,
+      "paddingTop": 40,
+      "paddingVertical": undefined,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    maxFontSizeMultiplier={1.1}
+    style={
+      Array [
+        Object {
+          "alignSelf": undefined,
+          "margin": undefined,
+          "marginBottom": undefined,
+          "marginHorizontal": undefined,
+          "marginLeft": undefined,
+          "marginRight": undefined,
+          "marginTop": undefined,
+          "marginVertical": undefined,
+          "padding": undefined,
+          "paddingBottom": undefined,
+          "paddingHorizontal": undefined,
+          "paddingLeft": undefined,
+          "paddingRight": undefined,
+          "paddingTop": undefined,
+          "paddingVertical": undefined,
+        },
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "Poppins-SemiBold",
+          "fontSize": 16,
+          "letterSpacing": undefined,
+          "textAlign": "auto",
+        },
+        undefined,
+      ]
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`Button snapshots variants 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  nativeID="animatedComponent"
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": undefined,
+      "backgroundColor": "#240A36",
+      "borderColor": "#240A36",
+      "borderRadius": 12,
+      "borderWidth": 0,
+      "height": 54,
+      "justifyContent": "center",
+      "margin": undefined,
+      "marginBottom": undefined,
+      "marginHorizontal": undefined,
+      "marginLeft": undefined,
+      "marginRight": undefined,
+      "marginTop": undefined,
+      "marginVertical": undefined,
+      "opacity": 1,
+      "padding": undefined,
+      "paddingBottom": undefined,
+      "paddingHorizontal": undefined,
+      "paddingLeft": undefined,
+      "paddingRight": undefined,
+      "paddingTop": undefined,
+      "paddingVertical": undefined,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    maxFontSizeMultiplier={1.1}
+    style={
+      Array [
+        Object {
+          "alignSelf": undefined,
+          "margin": undefined,
+          "marginBottom": undefined,
+          "marginHorizontal": undefined,
+          "marginLeft": undefined,
+          "marginRight": undefined,
+          "marginTop": undefined,
+          "marginVertical": undefined,
+          "padding": undefined,
+          "paddingBottom": undefined,
+          "paddingHorizontal": undefined,
+          "paddingLeft": undefined,
+          "paddingRight": undefined,
+          "paddingTop": undefined,
+          "paddingVertical": undefined,
+        },
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "Poppins-SemiBold",
+          "fontSize": 16,
+          "letterSpacing": undefined,
+          "textAlign": "auto",
+        },
+        undefined,
+      ]
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`Button snapshots variants 2`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  nativeID="animatedComponent"
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": undefined,
+      "backgroundColor": "#CAD1D9",
+      "borderColor": "#240A36",
+      "borderRadius": 12,
+      "borderWidth": 0,
+      "height": 54,
+      "justifyContent": "center",
+      "margin": undefined,
+      "marginBottom": undefined,
+      "marginHorizontal": undefined,
+      "marginLeft": undefined,
+      "marginRight": undefined,
+      "marginTop": undefined,
+      "marginVertical": undefined,
+      "opacity": 1,
+      "padding": undefined,
+      "paddingBottom": undefined,
+      "paddingHorizontal": undefined,
+      "paddingLeft": undefined,
+      "paddingRight": undefined,
+      "paddingTop": undefined,
+      "paddingVertical": undefined,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    maxFontSizeMultiplier={1.1}
+    style={
+      Array [
+        Object {
+          "alignSelf": undefined,
+          "margin": undefined,
+          "marginBottom": undefined,
+          "marginHorizontal": undefined,
+          "marginLeft": undefined,
+          "marginRight": undefined,
+          "marginTop": undefined,
+          "marginVertical": undefined,
+          "padding": undefined,
+          "paddingBottom": undefined,
+          "paddingHorizontal": undefined,
+          "paddingLeft": undefined,
+          "paddingRight": undefined,
+          "paddingTop": undefined,
+          "paddingVertical": undefined,
+        },
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "Poppins-SemiBold",
+          "fontSize": 16,
+          "letterSpacing": undefined,
+          "textAlign": "auto",
+        },
+        undefined,
+      ]
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
