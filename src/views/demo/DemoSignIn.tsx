@@ -15,7 +15,7 @@ const DemoSignIn: FC = () => {
 
   return (
     <StaticScreen>
-      <Box flex={1} justifyContent="center">
+      <Box flex={0.5} justifyContent="center">
         <Text mb={2} variant="title" align="center">
           <Trans i18nKey="DemoSignIn.title" />
         </Text>
@@ -30,18 +30,17 @@ const DemoSignIn: FC = () => {
           value={code}
           onChangeText={setCode}
         />
-      </Box>
-      <Box flex={1}>
+
         <TextField
           label={t('DemoSignIn.passLabel')}
           placeholder={t('DemoSignIn.passLabel')}
           value={pass}
           onChangeText={setPass}
         />
+        <Button disabled={code.length === 0} onPress={() => {}}>
+          <Trans i18nKey="DemoSignIn.submitButton" />
+        </Button>
       </Box>
-      <Button disabled={code.length === 0} onPress={() => {}}>
-        <Trans i18nKey="DemoSignIn.submitButton" />
-      </Button>
     </StaticScreen>
   )
 }

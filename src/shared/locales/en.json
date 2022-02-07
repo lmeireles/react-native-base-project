@@ -1,6 +1,7 @@
 {
   "DemoSignIn": {
     "title": "Identification",
+    "description": "Enter your credentials",
     "userLabel": "User",
     "passLabel": "Password",
     "submitButton": "Verify"
