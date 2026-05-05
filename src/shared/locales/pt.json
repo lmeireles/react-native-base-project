@@ -1,8 +1,0 @@
-{
-  "DemoSignIn": {
-    "title": "Identification",
-    "userLabel": "User",
-    "passLabel": "Password",
-    "submitButton": "Verify"
-  }
-}

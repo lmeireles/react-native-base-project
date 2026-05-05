@@ -1,83 +1,50 @@
 {
-  "name": "reactnativebaseproject",
-  "version": "0.0.1",
-  "private": true,
+  "name": "react-native-base-project",
+  "main": "expo-router/entry",
+  "version": "1.0.0",
   "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "start": "react-native start",
-    "test": "jest",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "lint": "expo lint"
   },
   "dependencies": {
-    "react": "17.0.2",
-    "react-native": "0.65.1",
-    "@react-navigation/bottom-tabs": "6.0.5",
-    "@react-navigation/native-stack": "6.1.0",
-    "@react-navigation/native": "6.0.2",
-    "react-native-localize": "2.1.4",
-    "react-native-reanimated": "2.2.2",
-    "react-native-safe-area-context": "3.3.2",
-    "react-native-screens": "3.7.2",
-    "react-native-splash-screen": "3.2.0",
-    "react-native-svg": "12.1.1",
-    "react-native-gesture-handler": "1.10.3",
-    "styled-components": "5.3.1",
-    "i18next": "20.6.1",
-    "react-i18next": "11.12.0"
+    "@expo/vector-icons": "^15.0.2",
+    "@hookform/resolvers": "^5.2.2",
+    "@tanstack/react-query": "^5.56.2",
+    "axios": "^1.7.7",
+    "clsx": "^2.1.1",
+    "expo": "^55.0.20",
+    "expo-constants": "~55.0.15",
+    "expo-font": "~55.0.6",
+    "expo-linking": "~55.0.14",
+    "expo-router": "~55.0.13",
+    "expo-secure-store": "~55.0.13",
+    "expo-splash-screen": "~55.0.19",
+    "expo-status-bar": "~55.0.5",
+    "expo-system-ui": "~55.0.16",
+    "expo-web-browser": "~55.0.14",
+    "nativewind": "^4.1.23",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-hook-form": "^7.53.0",
+    "react-native": "0.83.6",
+    "react-native-gesture-handler": "~2.30.0",
+    "react-native-reanimated": "4.2.1",
+    "react-native-safe-area-context": "~5.6.2",
+    "react-native-screens": "~4.23.0",
+    "react-native-web": "^0.21.0",
+    "react-native-worklets": "0.7.4",
+    "tailwind-merge": "^2.6.1",
+    "tailwindcss": "^3.4.0",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@babel/core": "7.15.5",
-    "@babel/eslint-parser": "7.15.7",
-    "@babel/runtime": "7.15.4",
-    "@react-native-community/eslint-config": "3.0.1",
-    "@testing-library/react-native": "7.2.0",
-    "@types/jest": "^26.0.23",
-    "@types/react-native": "^0.65.0",
-    "@types/react-test-renderer": "^17.0.1",
-    "@types/styled-components-react-native": "5.1.1",
-    "@typescript-eslint/eslint-plugin": "4.31.1",
-    "@typescript-eslint/parser": "4.31.1",
-    "babel-jest": "^26.6.3",
-    "babel-plugin-module-resolver": "4.1.0",
-    "eslint": "^7.14.0",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-import": "2.24.2",
-    "eslint-plugin-prefer-arrow": "1.2.3",
-    "eslint-plugin-prettier": "4.0.0",
-    "eslint-plugin-react": "7.25.2",
-    "jest": "^26.6.3",
-    "jest-styled-components": "7.0.5",
-    "metro-react-native-babel-preset": "^0.66.0",
-    "react-test-renderer": "17.0.2",
-    "stylelint": "13.13.1",
-    "stylelint-config-react-native-css-modules": "3.1.0",
-    "stylelint-processor-styled-components": "1.10.0",
-    "stylelint-react-native": "2.3.0",
-    "typescript": "^3.8.3",
-    "jest-transform-stub": "2.0.0",
-    "prettier": "2.4.1",
-    "react-native-codegen": "0.0.7",
-    "react-native-svg-transformer": "0.14.3"
+    "@babel/core": "^7.24.0",
+    "@types/react": "~19.2.10",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "typescript": "^5.9.3"
   },
-  "resolutions": {
-    "@types/react": "^17"
-  },
-  "jest": {
-    "preset": "react-native",
-    "transform": {
-      "^.+[.](ts|tsx|js|jsx)$": "<rootDir>/node_modules/babel-jest",
-      ".+\\.(png|jpg|ttf|woff|woff2)$": "jest-transform-stub"
-    },
-    "moduleNameMapper": {
-      "^styled-components": "<rootDir>/node_modules/styled-components",
-      "^.+.(png|jpg|ttf|woff|woff2)$": "jest-transform-stub"
-    },
-    "testMatch": [
-      "<rootDir>/__tests__/**/*.{spec,test}.{ts,tsx}"
-    ],
-    "setupFiles": [
-      "./setup-jest.js"
-    ]
-  }
+  "private": true
 }
