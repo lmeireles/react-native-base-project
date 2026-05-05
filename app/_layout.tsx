@@ -5,6 +5,9 @@ import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import { ThemeProvider } from '@context/ThemeContext';
+import { AuthProvider } from '@context/AuthContext';
+import { AppProvider } from '@context/AppContext';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -18,7 +21,13 @@ export default function RootLayout() {
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
       <QueryClientProvider client={queryClient}>
-        <Stack screenOptions={{ headerShown: false }} />
+        <ThemeProvider>
+          <AuthProvider>
+            <AppProvider>
+              <Stack screenOptions={{ headerShown: false }} />
+            </AppProvider>
+          </AuthProvider>
+        </ThemeProvider>
       </QueryClientProvider>
     </GestureHandlerRootView>
   );

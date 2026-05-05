@@ -4,7 +4,11 @@
       "Bash(npm install *)",
       "Bash(npm outdated *)",
       "Bash(npx expo *)",
-      "Bash(node *)"
+      "Bash(node *)",
+      "WebFetch(domain:api.anthropic.com)",
+      "Bash(gunzip -c \"/Users/lmeireles/.claude/projects/-Users-lmeireles-projects-test-react-native-base-project/b163ef01-d6b3-4c1c-9626-b92813aecbc2/tool-results/webfetch-1777969329864-qxszwu.bin\")",
+      "Bash(tar -x -C /tmp/design-bundle)",
+      "Read(//tmp/**)"
     ]
   }
 }
