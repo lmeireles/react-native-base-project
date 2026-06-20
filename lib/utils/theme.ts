@@ -47,7 +47,7 @@ export const tokens = {
   },
 } as const;
 
-export type ThemeTokens = typeof tokens.light;
+export type ThemeTokens = { readonly [K in keyof typeof tokens.light]: string };
 
 export function useThemeTokens(): ThemeTokens {
   const { colorScheme } = useColorScheme();
